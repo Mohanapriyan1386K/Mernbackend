@@ -1,11 +1,11 @@
 const express = require("express");
 const cors = require("cors");
-const userRouter = require("./router/user.router");
-const loginRouter=require("./router/authrouter")
-const productRouter=require("./router/product.router")
-const DashboardRouter=require("./router/dashboard.router")
-const DropDownRouter=require("./router/dropDownRouter")
-const OrderRouter=require("./router/orderouter")
+const userRouter = require("./routes/user.router");
+const loginRouter=require("./routes/authrouter")
+const productRouter=require("./routes/product.router")
+const DashboardRouter=require("./routes/dashboard.router")
+const DropDownRouter=require("./routes/dropDownRouter")
+const OrderRouter=require("./routes/orderouter")
 
 const app = express();
 
